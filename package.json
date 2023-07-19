@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "@metamask/onboarding": "^1.0.1",
     "@tremor/react": "^3.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
