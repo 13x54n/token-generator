@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Arbitrum One",
+    "rpcUrl": "arbitrum.rpc.thirdweb.com"
+  },
+  {
+    "name": "Arbitrum Goerli",
+    "rpcUrl": "arbitrum-goerli.rpc.thirdweb.com"
+  },
+  {
+    "name": "Binance Smart Chain Testnet",
+    "rpcUrl": "binance-testnet.rpc.thirdweb.com"
+  },
+  {
+    "name": "Ethereum",
+    "rpcUrl": "ethereum.rpc.thirdweb.com"
+  },
+  {
+    "name": "Goerli",
+    "rpcUrl": "goerli.rpc.thirdweb.com"
+  },
+  {
+    "name": "Polygon Mainnet",
+    "rpcUrl": "polygon.rpc.thirdweb.com"
+  },
+  {
+    "name": "Sepolia",
+    "rpcUrl": "sepolia.rpc.thirdweb.com"
+  }
+]
