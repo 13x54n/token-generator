@@ -20,8 +20,8 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <main className="flex items-start gap-6 p-3 px-5">
-        <div className="w-64">
+      <main className="flex items-start gap-6 p-3 px-5 pt-0">
+        <div className="w-64 pt-3">
           <h1 className="mb-3">Token Types</h1>
           <div className="flex flex-col items-start">
             {Tokens.map((token, index) => {
@@ -34,7 +34,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 px-7 border-l-2 border-r-2 border-[#e5e5e5] pt-3">
           {activePage === "ERC20" && <ERC20 />}
           {activePage === "ERC721" && <ERC721 />}
           {activePage === "ERC777" && <ERC777 />}
@@ -42,7 +42,7 @@ export default function App() {
           {activePage === "ERC4626" && <ERC4626 />}
         </div>
 
-        <div className="w-64">
+        <div className="w-64 pt-3">
           {activePage === "ERC20" && <ERC20Form />}
           {activePage === "ERC721" && <ERC721Form />}
           {activePage === "ERC777" && <ERC777Form />}
